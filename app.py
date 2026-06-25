@@ -142,22 +142,23 @@ st.markdown("---")
 
 def analyze_content(content):
 
-    prompt = """
-You are a Waste Management Expert.
-
-Analyze the waste item.
+    prompt = f"""
+Analyze this waste item: {waste_item}
 
 Return EXACTLY in this format:
 
-Object Name:
-Waste Category:
-Recyclable:
-Disposal Method:
-Environmental Impact:
-Sustainability Tip:
+⚱️👁️‍🗨️Object Name: <value>
 
-Keep every field on a separate line.
-Do not write paragraphs.
+🔵🟢Waste Category: <value>
+
+🔵♻️Recyclable: <value>
+
+Disposal Method: <value>
+
+Sustainability Tip: <value>
+
+Each field must be on a new line.
+Do not write a paragraph.
 """
 
     response = model.generate_content(
