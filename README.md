@@ -107,8 +107,8 @@ EcoSortAI uses Google's Gemini AI model to analyze waste through text descriptio
 
 👨‍💻 Developer
 
-Saurav
+Saurav kumar Rana
 
 📜 License
 
-This project is developed for educational and sustainability purposes.
+This project is developed for educational and sustainability purposes under the Internship of 1M1B.
