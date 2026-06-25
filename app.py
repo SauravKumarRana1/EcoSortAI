@@ -7,6 +7,7 @@ import os
 # -----------------------
 # PAGE CONFIG
 # -----------------------
+st.write("API Loaded:", os.getenv("GEMINI_API_KEY"))
 
 st.set_page_config(
     page_title="EcoSortAI",
