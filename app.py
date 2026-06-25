@@ -147,15 +147,15 @@ Analyze this waste item: {waste_item}
 
 Return EXACTLY in this format:
 
-⚱️👁️‍🗨️Object Name: <value>
+⚱️🧐Object Name: <value>
 
 🔵🟢Waste Category: <value>
 
 🔵♻️Recyclable: <value>
 
-Disposal Method: <value>
+🍃🍃Disposal Method: <value>
 
-Sustainability Tip: <value>
+💱🌐Sustainability Tip: <value>
 
 Each field must be on a new line.
 Do not write a paragraph.
