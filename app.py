@@ -170,14 +170,37 @@ Do not write a paragraph.
 # -----------------------
 # TABS
 # -----------------------
+with st.sidebar:
+    st.title("♻️ EcoSortAI")
 
-tab1, tab2, tab3 = st.tabs(
-    [
-        " Text Analysis",
-        " Image Upload",
-        " Camera Scan"
-    ]
-)
+    page = st.radio(
+        "Navigation",
+        [
+            "Text Analysis",
+            "Image Upload",
+            "Camera Scan"
+        ]
+    )
+
+if page == "Text Analysis":
+
+    st.subheader("Analyze Waste Using Text")
+
+    # yahan tab1 wala pura code paste karo
+
+
+elif page == "Image Upload":
+
+    st.subheader("Upload Waste Image")
+
+    # yahan tab2 wala pura code paste karo
+
+
+elif page == "Camera Scan":
+
+    st.subheader("Camera Waste Scanner")
+
+    # yahan tab3 wala pura code paste karo
 
 # -----------------------
 # TEXT ANALYSIS
