@@ -170,17 +170,11 @@ Do not write a paragraph.
 # -----------------------
 # TABS
 # -----------------------
-with st.sidebar:
-    st.title("♻️ EcoSortAI")
-
-    page = st.radio(
-        "Navigation",
-        [
-            "Text Analysis",
-            "Image Upload",
-            "Camera Scan"
-        ]
-    )
+tab1, tab2, tab3 = st.tabs([
+    "Text Analysis",
+    "Image Upload",
+    "Camera Scan"
+])
 
 if page == "Text Analysis":
 
