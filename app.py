@@ -158,7 +158,7 @@ Return EXACTLY in this format:
 💱🌐Sustainability Tip: <value>
 
 Each field must be on a new line.
-Do not write a paragraph.
+Do not write a paragraph.Give two line gaps to every field 
 """
 
     response = model.generate_content(
